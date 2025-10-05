@@ -9,6 +9,25 @@ O objetivo era implementar uma **API para gerenciamento de tarefas** com CRUD co
 - Swagger para documentação
 - MySql (com Migrations)
 
+## 🛠 Tecnologias e Bibliotecas Utilizadas
+
+Aqui estão as principais bibliotecas e seus propósitos:
+
+- **Microsoft.EntityFrameworkCore** 🗄️  
+  Biblioteca principal do **Entity Framework Core**, utilizada para manipulação de dados via ORM.
+
+- **Microsoft.EntityFrameworkCore.Design** 🛠️  
+  Ferramentas para **design-time**, suporte a migrações e scaffolding.
+
+- **Microsoft.EntityFrameworkCore.Tools** 🔧  
+  Fornece **comandos CLI** para migrações e gerenciamento do banco de dados.
+
+- **Pomelo.EntityFrameworkCore.MySql** 🐬  
+  Provider **MySQL** para o Entity Framework Core, permitindo conexão e manipulação de banco MySQL.
+
+- **Swashbuckle.AspNetCore** 📜  
+  Gera **documentação automática da API** via Swagger, permitindo testes e visualização dos endpoints.
+
 ## ⚙️ Funcionalidades
 - Cadastrar tarefa
 - Atualizar tarefa
